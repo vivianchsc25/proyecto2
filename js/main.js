@@ -21,3 +21,8 @@ menuItems.forEach (function(item) {
     });
     
 });
+
+const modoOscuro =document.querySelector('#modo-oscuro')
+modoOscuro.addEventListener('click', function(){
+    document.body.classList.toggle('modo-oscuro')
+})

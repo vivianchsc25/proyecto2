@@ -103,6 +103,7 @@ body{
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
+
 }
 
 h1{
@@ -138,7 +139,7 @@ h1{
     #cv:hover span {
     background: none;
 }
-
+ /* verificar si funciona si no borrar */
     #cv:active{
     transform: scale(0.9);
 }
@@ -163,13 +164,6 @@ p{
 }
 
 
-
-
-
-
-
-/* hoover */
-
 a {
     text-decoration: none;
     color: inherit;
@@ -185,7 +179,7 @@ min-height: 100vh;
 
 }
 
-#lila{
+#hablemos{
     background-color:  #FF9494;
     color:  #0f0f0f;
     border-radius: 20%;
@@ -204,7 +198,11 @@ footer {
 
 }
 
-
+.redess{
+    border: 0;
+    background-color: transparent;
+    font-size: 40px;
+    }
 
 
 
@@ -223,9 +221,7 @@ h1{
 h2{
     font-size: 32px;
 } 
-article.presentacion{
-    width: ;
-}
+
  #menu-btn{
     display: none;
  }
@@ -235,5 +231,109 @@ nav{
 
 }}
 
+
+
+
+
+
+
+/* modo oscuro 
+
+#modo-oscuro{ 
+    background: transparent; 
+    border: 0; 
+    outline: 0; 
+    font-size: 26px; 
+    width: 40px; 
+    height: 40px; 
+
+} 
+  /* no anda
+button#luna { 
+
+    display: none;
+    background: transparent; 
+    border: 0; 
+    outline: 0; 
+    font-size: 26px; 
+    width: 40px; 
+    height: 40px; 
+} 
+
+  button#sol{
+   
+    display: flex
+    
+  }
+
+ */
+
+  
+ #modo-oscuro{
+    background: transparent; 
+    border: 0; 
+    outline: 0; 
+    font-size: 26px; 
+    width: 40px; 
+    height: 40px; 
+
+ }
+ #luna{
+    display: none;
+    color: #ffffff;
+}
+
+
+
+/*modo oscuro*/
+  
+body.modo-oscuro{
+background-color: #0f0f0f ; 
+color: #fbfbfb; 
+    } 
+
+body.modo-oscuro #sol {
+display: none;
+}
+
+body.modo-oscuro #luna {
+    display: flex;
+    }
+
+body.modo-oscuro #menu-btn { 
+    color: #fbfbfb; 
+
+    } 
+
+body.modo-oscuro li.menu-item:hover {
+    background-color: #AF0171;
+    color: #fff;
+    padding: 13px;
+    border-radius: 5px;
+}
+body.modo-oscuro #cv{
+    
+background-image: linear-gradient(150deg,
+#4C0033, #790252, #AF0171);
+}
+
+body.modo-oscuro #hablemos { 
+
+    background-color: #4C0033; 
+    color: #fbfbfb; 
+    } 
+
+body.modo-oscuro .redess {
+    color: #fbfbfb;
+}
+     
+
+body.modo-oscuro footer {
+
+    background-color: #4C0033; 
+    color: #fbfbfb;
+        }
+
+     
 
 
