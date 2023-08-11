@@ -9,18 +9,9 @@ menuBtn.addEventListener('click',function() {
 })
 
 
-// hoover
 
-const menuItems = document.querySelectorAll ('.menu-item')
 
-menuItems.forEach (function(item) {
-    item.addEventListener('click', function(e){
-        const activeItem = document.querySelector('.active');
-        activeItem.classList.remove('active');
-        e.target.classList.add('active');
-    });
-    
-});
+//modo oscuro
 
 const modoOscuro =document.querySelector('#modo-oscuro')
 modoOscuro.addEventListener('click', function(){
