@@ -6,6 +6,13 @@
     padding: 0;
     scroll-behavior: smooth;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF5E4;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    }
 
 header{
     display: flex;
@@ -17,6 +24,18 @@ header{
     box-shadow: 0px 3px 10px -5px  gray;
    
 }
+
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+h1{
+    font-size: 36px;
+    padding: 20px;
+    }
 
 ul{
     list-style: none;
@@ -60,61 +79,11 @@ i#close-menu{
 nav{
     display: none;
 }
-/*estilos para el menu mobile*/
-
-body.mobile-menu-active {
-    overflow: hidden;
-}
-
-body.mobile-menu-active  i#close-menu{
-    display: block;
-}
-
-body.mobile-menu-active i#open-menu{
-    display: none;
-}
-
-body.mobile-menu-active header{
-    height: 50vh;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    transition: height 0.3s;
-}
-
-body.mobile-menu-active nav{
-    display: block;
-    width: 100%;
-    height: 50%;
-}
-
-body.mobile-menu-active ul#menu {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 100%;
-}
-
-
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: #FFF5E4;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: center;
-
-}
-
-h1{
-font-size: 36px;
-padding: 20px;
-}
-
-
 
 
 /*boton para descargar cv*/
 
-   #cv{
+#cv{
     border: 0;
     background-image: linear-gradient(150deg,
     #D83A56, #FF616D, #FF9494);
@@ -139,12 +108,6 @@ padding: 20px;
     #cv:hover span {
     background: none;
 }
- /* verificar si funciona si no borrar */
-    #cv:active{
-    transform: scale(0.9);
-}
-
-
 
 
 h2{
@@ -159,8 +122,7 @@ h2{
 }
 
 p{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
 
 }
 
@@ -190,9 +152,6 @@ border-radius: 20px;
 }
 
 
-
-  
-
 #hablemos{
     background-color:  #FF9494;
     color:  #0f0f0f;
@@ -200,7 +159,11 @@ border-radius: 20px;
     padding: 15%;
 }
 
-
+.redess{
+    border: 0;
+    background-color: transparent;
+    font-size: 40px;
+    }
 
 
 footer {
@@ -209,13 +172,40 @@ footer {
     height: 90px;
     display: flex;
     justify-content: flex-end;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    
 }
 
-.redess{
-    border: 0;
-    background-color: transparent;
-    font-size: 40px;
-    }
+/*estilos para el menu mobile*/
+
+body.mobile-menu-active  i#close-menu{
+    display: block;
+}
+
+body.mobile-menu-active i#open-menu{
+    display: none;
+}
+
+body.mobile-menu-active header{
+    height: 50vh;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    transition: height 0.3s;
+}
+
+body.mobile-menu-active nav{
+    display: block;
+    width: 100%;
+    height: 50%;
+}
+
+body.mobile-menu-active ul#menu {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
 
 
 
@@ -264,8 +254,6 @@ height: 650px;
     display: none;
     color: #ffffff;
 }
-
-
 
 /*modo oscuro*/
   

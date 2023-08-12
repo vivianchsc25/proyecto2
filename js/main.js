@@ -9,8 +9,6 @@ menuBtn.addEventListener('click',function() {
 })
 
 
-
-
 //modo oscuro
 
 const modoOscuro =document.querySelector('#modo-oscuro')
